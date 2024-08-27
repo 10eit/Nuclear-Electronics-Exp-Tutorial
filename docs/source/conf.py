@@ -1,8 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
-
+from datetime import datetime
+now = datetime.now()
+this_year = now.year
 # -- Project information
 
 project = 'Nuclear Electronic Experiment Handbook'
+copyright = f'2024-{this_year}, 复旦大学'
 author = '复旦大学'
 
 release = '1.0'
