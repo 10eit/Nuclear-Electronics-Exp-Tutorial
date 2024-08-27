@@ -1,22 +1,44 @@
-Welcome to Lumache's documentation!
+欢迎访问核电子学实验民间手册！
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+这里是复旦大学核相关基础实验（I）（课程编号: TCPH130048）和核相关基础实验（II）
+（课程编号: TCPH130049）两门必修专业实验课的非官方手册。
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+由于后续两门课程的实验报告应该都会要求使用电子排版，因此我们欢迎您学习 :math:`\LaTeX` 和
+使用复旦大学非官方的 `物理实验报告模板 <https://github.com/stone-zeng/fduthesis>`，
+并阅读 :doc:`convention` 一节了解国标 GB/T 7713.2—2022 对学术写作中公式书写的规范要求。
+
+.. tip::
+
+   下面是一些常用工具的链接：
+
+
+本手册将涵盖以下内容：
+1. 原实验讲义的高清重排，感谢 21 级某同学对实验流程中的必要图片使用 ``tikz`` 重新绘制；
+2. 对实验内容的扩展讨论与相关内容补充；
+3. 实验分析方法的原理、实现与解析，我们将使用 ``Python`` 完成大部分分析。
+
+本手册 **不会** 涵盖的内容：
+1. 完整的实验报告和实验数据；
+2. 完整的分析代码。
+
+请自觉遵守学术诚信。
 
 .. note::
 
-   This project is under active development.
+   本项目目前仍在建设中，若您在使用过程中遇到任何问题（包括但不限于内容错误、页面无法访问等），
+   请前往 GitHub 提交 Issue 进行反馈。
 
-Contents
+   我们诚挚邀请您加入我们的贡献者行列，共同完善项目。若您有任何改进建议或后续课程内容调整，
+   欢迎通过 Pull Request 的方式参与进来。您的每一份贡献都将对项目的发展起到积极的推动作用。
+
+
+手册内容
 --------
 
 .. toctree::
-
-   usage
-   api
+   :maxdepth: 2
+   convention
+   statistics_intro
+   Lab_Fall
+   Lab_Spring
