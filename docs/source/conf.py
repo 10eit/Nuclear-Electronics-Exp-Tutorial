@@ -35,3 +35,11 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for Search
+html_search_enable = True
+
+html_search_options = {
+    'type': 'default',
+    'lang': ['en', 'zh'],
+}
