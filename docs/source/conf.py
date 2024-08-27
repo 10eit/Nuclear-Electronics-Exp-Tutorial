@@ -3,10 +3,10 @@
 # -- Project information
 
 project = 'Nuclear Electronic Experiment Handbook'
-author = 'Fudan University'
+author = '复旦大学'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 
