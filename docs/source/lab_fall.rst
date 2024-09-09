@@ -9,4 +9,5 @@
 .. toctree::
    :maxdepth: 1
 
+   line_noise
    lab_chua_circuit
