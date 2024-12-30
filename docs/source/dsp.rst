@@ -48,7 +48,7 @@
 - **低频段噪声**：来源于未能完全滤除的交流成分，主要包括工频噪声及其谐波噪声（如 100 Hz、150 Hz）。
 - **高频段噪声**：来源于开关电源内部开关器件的切换，频率范围在几十千赫兹到几兆赫兹之间。
 
-.. figure:: images/high_freq_ripple.png
+.. figure:: images/hig_freq_ripple.png
    :align: center
    :alt: 高频波纹和热噪声
 
